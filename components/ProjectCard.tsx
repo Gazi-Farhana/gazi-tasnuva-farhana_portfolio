@@ -14,7 +14,6 @@ interface ProjectCardProps {
   live: string;
   front: string;
   back: string;
-  full: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -26,7 +25,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   live,
   front,
   back,
-  full,
 }) => {
   return (
     <div className="grid lg:grid-cols-9 gap-20">
@@ -121,9 +119,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           )}
           {back && (
             <ButtonAsLink href={back} placeholder="Backend" target="_blank" />
-          )}
-          {full && (
-            <ButtonAsLink href={full} placeholder="Fullstack" target="_blank" />
           )}
           <ButtonAsLink href={`/projects/${id}`} placeholder="View Details" />
         </motion.div>

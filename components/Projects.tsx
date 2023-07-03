@@ -27,7 +27,6 @@ const Projects: React.FC<ProjectsProps> = ({ showAll }) => {
                 live={project.liveLink}
                 front={project.frontend}
                 back={project.backend}
-                full={project.fullstack}
               />
             ))}
 
@@ -43,7 +42,6 @@ const Projects: React.FC<ProjectsProps> = ({ showAll }) => {
               live={project.liveLink}
               front={project.frontend}
               back={project.backend}
-              full={project.fullstack}
             />
           ))}
       </div>
