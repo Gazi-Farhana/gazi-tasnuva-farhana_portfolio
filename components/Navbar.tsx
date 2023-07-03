@@ -90,7 +90,7 @@ const Navbar = () => {
               transition={{ ease: "easeInOut", duration: 1.5, delay: 0.9 }}
             >
               <ButtonAsLink
-                href="https://drive.google.com/uc?export=download&id=16rCIrOJxWv-FYk1ydZwsU84d6fWoJ3bw"
+                href="https://drive.google.com/file/d/1Pa8muCFQH5uSAzhkUysdchvjbiqXGQeZ/view?usp=sharing"
                 placeholder="Download Resume"
                 target="_blank"
               />
