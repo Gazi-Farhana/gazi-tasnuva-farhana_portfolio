@@ -215,13 +215,6 @@ const ProjectDetailsPage = ({ params }: { params: { projectId: string } }) => {
                 target="_blank"
               />
             )}
-            {project.fullstack && (
-              <ButtonAsLink
-                href={project.fullstack}
-                placeholder="Fullstack"
-                target="_blank"
-              />
-            )}
           </motion.div>
         </div>
       </section>
