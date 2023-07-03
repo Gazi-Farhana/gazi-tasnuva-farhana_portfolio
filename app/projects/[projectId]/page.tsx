@@ -68,13 +68,6 @@ const ProjectDetailsPage = ({ params }: { params: { projectId: string } }) => {
                   target="_blank"
                 />
               )}
-              {project.fullstack && (
-                <ButtonAsLink
-                  href={project.fullstack}
-                  placeholder="Fullstack"
-                  target="_blank"
-                />
-              )}
             </motion.div>
           </div>
           <div className="overflow-hidden self-start">
