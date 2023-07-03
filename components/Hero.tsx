@@ -10,9 +10,9 @@ import { BsTwitter, BsArrowDown } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <section className="wrapper section-padding 2xl:h-[calc(100vh-6rem)] relative">
+    <section className="wrapper section-padding 2xl:h-[calc(100vh-6rem)] relative bg-gradient-to-r from-neutral-800 to-light/25 container">
       {/* HEADLINES */}
-      <div className="text-[3.5rem] xs:text-[4rem] sm:text-[4.5rem] md:text-[5.5rem] lg:text-[7rem] xl:text-[7.5rem] 2xl:text-[10rem] leading-[1] font-semibold">
+      <div className="text-[3.5rem] xs:text-[4rem] sm:text-[4.5rem] md:text-[5.5rem] lg:text-[7rem] xl:text-[7.5rem] 2xl:text-[10rem] leading-[1] font-semibold text-right">
         {/* FIRST LINE */}
         <div className="overflow-hidden">
           <motion.h2
@@ -20,7 +20,7 @@ const Hero = () => {
             whileInView={{ y: 0 }}
             transition={{ ease: "easeInOut", duration: 0.5 }}
           >
-            Talented
+            Innovative
           </motion.h2>
         </div>
         {/* SECOND LINE */}
@@ -83,7 +83,7 @@ const Hero = () => {
       <div className="hidden xl:block absolute right-36 top-24 w-[20rem] h-[20rem] z-[-1] rounded-full radial blur-3xl"></div>
 
       {/* SKILL CARDS */}
-      <div className="hidden xl:block absolute right-0 top-0 w-[40rem] h-[30rem] z-[1]">
+      <div className="hidden xl:block absolute left-0 top-0 w-[40rem] h-[30rem] z-[1]">
         <motion.div
           initial={{ opacity: 0, top: "40%" }}
           whileInView={{ opacity: 1, top: "50%" }}

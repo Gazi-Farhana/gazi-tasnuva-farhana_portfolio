@@ -51,7 +51,7 @@ const Contact = () => {
 
       <div className="mt-20 grid lg:grid-cols-2 gap-20">
         <div className="left flex flex-col gap-10">
-          <div className="overflow-hidden">
+          <div className="overflow-hidden text-left">
             <motion.h4
               initial={{ y: "100%" }}
               whileInView={{ y: 0 }}
@@ -59,15 +59,15 @@ const Contact = () => {
               className="text-3xl md:text-4xl lg:text-5xl"
             >{`Let's build your dream. Contact Me!`}</motion.h4>
           </div>
-          <div className="text-xl md:text-2xl">
+          <div className="text-xl md:text-2xl text-left">
             <div className="overflow-hidden">
               <motion.p
                 initial={{ y: "100%" }}
                 whileInView={{ y: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 0.2 }}
-                className="text-light/50 text-3xl md:text-4xl"
+                className="text-light/50 text-3xl md:text-4xl left"
               >
-                Available Platform:
+                Find Me On:
               </motion.p>
             </div>
             <motion.div
@@ -87,7 +87,7 @@ const Contact = () => {
                   initial={{ y: "100%" }}
                   whileInView={{ y: 0 }}
                   transition={{ ease: "easeInOut", duration: 1, delay: 0.4 }}
-                  className="text-light/50 text-3xl md:text-4xl"
+                  className="text-light/50 text-3xl md:text-4xl text-left"
                 >
                   Get in touch
                 </motion.p>
@@ -106,24 +106,6 @@ const Contact = () => {
               </motion.div>
             </div>
             <div>
-              <div className="overflow-hidden">
-                <motion.p
-                  initial={{ y: "100%" }}
-                  whileInView={{ y: 0 }}
-                  transition={{ ease: "easeInOut", duration: 1, delay: 0.6 }}
-                  className="text-light/50 text-3xl md:text-4xl"
-                >
-                  Location
-                </motion.p>
-              </div>
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ ease: "easeInOut", duration: 1.5, delay: 0.4 }}
-                className="mt-2"
-              >
-                Dhaka, Bangladesh
-              </motion.p>
             </div>
           </div>
         </div>

@@ -60,18 +60,19 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="list-none">
-                <Link href="/#about" className="linear-flow">
-                  About
-                </Link>
-              </li>
-              <li className="list-none">
-                <Link href="/#projects" className="linear-flow">
+              <Link href="/#projects" className="linear-flow">
                   Projects
                 </Link>
+                
               </li>
               <li className="list-none">
-                <Link href="/#skills" className="linear-flow">
+              <Link href="/#skills" className="linear-flow">
                   Skills
+                </Link>
+              </li>
+              <li className="list-none">
+              <Link href="/#about" className="linear-flow">
+                  About
                 </Link>
               </li>
               <li className="list-none">

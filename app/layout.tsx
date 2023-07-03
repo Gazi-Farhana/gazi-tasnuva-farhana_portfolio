@@ -1,11 +1,11 @@
-import { Space_Grotesk } from "next/font/google";
+import { Raleway } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import clsx from "clsx";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
+const spaceGrotesk = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Gazi Tasnuva Farhana | Home",
