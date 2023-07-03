@@ -5,7 +5,6 @@ import CountUp from "react-countup";
 import SectionTitle from "./SectionTitle";
 import ButtonAsLink from "./ButtonAsLink";
 import { motion } from "framer-motion";
-import { data } from "@/constants/stats";
 
 const About = () => {
   return (
@@ -48,7 +47,7 @@ const About = () => {
             transition={{ ease: "easeInOut", duration: 1.5, delay: 0.5 }}
             className="leading-[1.2]"
           >
-          Hello, <br /> I am Gazi Tasnuva Farhana, and I specialize in MERN development. Crafting elegant web solutions is my passion. With a meticulous attention to detail, I transform complex ideas into user-friendly applications. I bring a unique perspective to every project, combining innovation and a commitment to excellence. <br /> Let's work together to create something extraordinary!
+          Hello, <br /> I am Gazi Tasnuva Farhana, and I specialize in MERN development. Crafting elegant web solutions is my passion. With a meticulous attention to detail, I transform complex ideas into user-friendly applications. I bring a unique perspective to every project, combining innovation and a commitment to excellence. <br /> Let us work together to create something extraordinary!
           </motion.p>
           {/* STATS */}
           <div className="mt-20 flex flex-wrap xl:flex-nowrap gap-20">
