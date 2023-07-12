@@ -69,26 +69,20 @@ export const data = [
   },
   {
     id: 8,
-    text: "Next",
-    icon: SiNextdotjs,
+    text: "Node",
+    icon: FaNodeJs,
     delay: 0.07,
   },
   {
     id: 9,
-    text: "Node",
-    icon: FaNodeJs,
+    text: "Express",
+    icon: SiExpress,
     delay: 0.08,
   },
   {
     id: 10,
-    text: "Express",
-    icon: SiExpress,
-    delay: 0.09,
-  },
-  {
-    id: 11,
     text: "MongoDB",
     icon: BiLogoMongodb,
-    delay: 0.1,
+    delay: 0.09,
   },
 ];

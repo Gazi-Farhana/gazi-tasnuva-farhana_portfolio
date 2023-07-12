@@ -91,7 +91,7 @@ const Navbar = () => {
               transition={{ ease: "easeInOut", duration: 1.5, delay: 0.9 }}
             >
               <ButtonAsLink
-                href="https://drive.google.com/file/d/1NF4ihLfmzYKzmIFV_eF7Fsxr5M50gBrn/view?usp=sharing"
+                href="https://drive.google.com/uc?export=download&id=1NF4ihLfmzYKzmIFV_eF7Fsxr5M50gBrn"
                 placeholder="Download Resume"
                 target="_blank"
               />
@@ -99,6 +99,7 @@ const Navbar = () => {
           </div>
         </div>
       </motion.header>
+      
 
       {/* MOBILE NAVIGATION */}
       <motion.header
