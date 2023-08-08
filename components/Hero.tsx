@@ -56,9 +56,9 @@ const Hero = () => {
             >
               Gazi Tasnuva Farhana <br />{" "}
               <ButtonAsLink
-                href="mailto:gazifarhana95@gmail.com"
+                href="mailto:gazifarhana17@gmail.com"
                 target="_blank"
-                placeholder="gazifarhana95@gmail.com"
+                placeholder="gazifarhana17@gmail.com"
               />
             </motion.p>
           </div>
