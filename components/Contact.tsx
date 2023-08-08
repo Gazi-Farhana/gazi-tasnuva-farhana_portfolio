@@ -76,8 +76,8 @@ const Contact = () => {
               transition={{ ease: "easeInOut", duration: 1.5, delay: 0.3 }}
               className="flex gap-5 mt-2 flex-wrap"
             >
-              <ButtonAsLink href="#" placeholder="LinkedIn" target="_blank" />
-              <ButtonAsLink href="#" placeholder="GitHub" target="_blank" />
+              <ButtonAsLink href="https://www.linkedin.com/in/gazi-tasnuva-farhana/" placeholder="LinkedIn" target="_blank" />
+              <ButtonAsLink href="https://github.com/Gazi-Farhana" placeholder="GitHub" target="_blank" />
             </motion.div>
           </div>
           <div className="flex gap-10 flex-wrap md:flex-nowrap text-xl md:text-2xl">
