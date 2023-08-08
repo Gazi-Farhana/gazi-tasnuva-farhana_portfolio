@@ -1,28 +1,15 @@
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
-import { BsStripe } from "react-icons/bs";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import {
   BiLogoCss3,
-  BiLogoSass,
   BiLogoTailwindCss,
   BiLogoJavascript,
   BiLogoTypescript,
   BiLogoReact,
-  BiLogoRedux,
   BiLogoMongodb,
-  BiLogoDocker,
-  BiLogoPostgresql,
-  BiLogoFirebase,
 } from "react-icons/bi";
-import {
-  SiNextdotjs,
-  SiExpress,
-  SiPrisma,
-  SiFramer,
-  SiGreensock,
-  SiMongoose,
-} from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 export const data = [
   {

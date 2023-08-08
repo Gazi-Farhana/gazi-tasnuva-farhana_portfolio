@@ -3,7 +3,6 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { toast } from "react-hot-toast";
-import { BsArrowUpRight } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 import ButtonAsLink from "./ButtonAsLink";
 import SectionTitle from "./SectionTitle";
@@ -76,8 +75,16 @@ const Contact = () => {
               transition={{ ease: "easeInOut", duration: 1.5, delay: 0.3 }}
               className="flex gap-5 mt-2 flex-wrap"
             >
-              <ButtonAsLink href="https://www.linkedin.com/in/gazi-tasnuva-farhana/" placeholder="LinkedIn" target="_blank" />
-              <ButtonAsLink href="https://github.com/Gazi-Farhana" placeholder="GitHub" target="_blank" />
+              <ButtonAsLink
+                href="https://www.linkedin.com/in/gazi-tasnuva-farhana/"
+                placeholder="LinkedIn"
+                target="_blank"
+              />
+              <ButtonAsLink
+                href="https://github.com/Gazi-Farhana"
+                placeholder="GitHub"
+                target="_blank"
+              />
             </motion.div>
           </div>
           <div className="flex gap-10 flex-wrap md:flex-nowrap text-xl md:text-2xl">
@@ -99,14 +106,13 @@ const Contact = () => {
                 className="mt-2"
               >
                 <ButtonAsLink
-                  href="mailto:gazifarhana95@gmail.com"
-                  placeholder="gazifarhana95@gmail.com"
+                  href="mailto:gazifarhana17@gmail.com"
+                  placeholder="gazifarhana17@gmail.com"
                   target="_blank"
                 />
               </motion.div>
             </div>
-            <div>
-            </div>
+            <div></div>
           </div>
         </div>
 

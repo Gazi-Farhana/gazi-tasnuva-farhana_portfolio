@@ -60,18 +60,17 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="list-none">
-              <Link href="/#projects" className="linear-flow">
+                <Link href="/#projects" className="linear-flow">
                   Projects
                 </Link>
-                
               </li>
               <li className="list-none">
-              <Link href="/#skills" className="linear-flow">
+                <Link href="/#skills" className="linear-flow">
                   Skills
                 </Link>
               </li>
               <li className="list-none">
-              <Link href="/#about" className="linear-flow">
+                <Link href="/#about" className="linear-flow">
                   About
                 </Link>
               </li>
@@ -91,7 +90,7 @@ const Navbar = () => {
               transition={{ ease: "easeInOut", duration: 1.5, delay: 0.9 }}
             >
               <ButtonAsLink
-                href="https://drive.google.com/uc?export=download&id=1NF4ihLfmzYKzmIFV_eF7Fsxr5M50gBrn"
+                href="https://drive.google.com/uc?export=download&id=1A-gOyKVrFGyk1oS5xB2zBcYM-fwqWxah"
                 placeholder="Download Resume"
                 target="_blank"
               />
@@ -99,7 +98,6 @@ const Navbar = () => {
           </div>
         </div>
       </motion.header>
-      
 
       {/* MOBILE NAVIGATION */}
       <motion.header
@@ -253,7 +251,7 @@ const Navbar = () => {
                 className="list-none"
               >
                 <Link
-                  href="https://drive.google.com/file/d/1A-gOyKVrFGyk1oS5xB2zBcYM-fwqWxah/view?usp=sharing"
+                  href="https://drive.google.com/uc?export=download&id=1A-gOyKVrFGyk1oS5xB2zBcYM-fwqWxah"
                   target="_blank"
                   className="hover:text-accent duration-500"
                 >

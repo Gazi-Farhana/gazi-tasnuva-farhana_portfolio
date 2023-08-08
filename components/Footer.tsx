@@ -1,6 +1,5 @@
 "use client";
 
-import { FaStarOfLife } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -11,8 +10,6 @@ const Footer = () => {
       transition={{ ease: "easeInOut", duration: 1 }}
       className="wrapper section-padding bg-accent text-dark rounded-tl-3xl rounded-tr-3xl"
     >
-   
-
       <div className="mt-10 grid xl:grid-cols-3 gap-10 justify-between items-start px-20 text-lg md:text-xl">
         <div className="overflow-hidden">
           <motion.p
